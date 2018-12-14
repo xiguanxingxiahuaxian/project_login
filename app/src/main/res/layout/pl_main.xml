@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/write_xiec"
+    tools:context="ui.origin.com.loginui_xiech.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:src="@mipmap/left_xiec" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp_10"
+            style="@style/title"
+            android:text="@string/login_register_xiech" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_100">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                style="@style/content_title"
+                android:text="@string/login_login_xiech" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_8"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:layout_marginEnd="@dimen/dp_10"
+                        style="@style/Edit_content"
+                        android:background="@drawable/bottom_shape_xiech"
+                        android:hint="@string/login_hint_tel_xiech"
+                        android:ems="10"
+                        android:inputType="textMultiLine" />
+                </RelativeLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+                      <EditText
+                          android:id="@+id/editText2"
+                          style="@style/Edit_content"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_centerHorizontal="true"
+                          android:layout_centerVertical="true"
+                          android:layout_marginStart="@dimen/dp_10"
+                          android:layout_marginEnd="@dimen/dp_10"
+                          android:background="@drawable/bottom_shape_xiech"
+                          android:ems="10"
+                          android:hint="@string/login_hint_mm_xiech"
+                          android:inputType="textPassword"
+                          android:padding="@dimen/dp_8" />
+                  </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignTop="@+id/textView6"
+                            android:layout_marginEnd="@dimen/dp_10"
+                            android:text="@string/login_hint_forgermm_xiech" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="@dimen/dp_1"
+                            android:layout_height="@dimen/dp_20"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/dp_10"
+                            android:layout_toStartOf="@+id/textView4"
+                            android:background="@color/text_black_1_xiec" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="@dimen/dp_20"
+                            android:layout_height="@dimen/dp_20"
+                            android:layout_alignBottom="@+id/textView6"
+                            android:layout_marginEnd="13dp"
+                            android:layout_toStartOf="@+id/textView6"
+                            app:srcCompat="@mipmap/closeeye" />
+
+
+                    </RelativeLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/botton_orige_xiech"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:text="@string/login_button_login_xiech" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/textView7"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    style="@style/content_botton"
+                    android:text="@string/login_button_left_xiech" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_alignEnd="@+id/textView7"
+                    style="@style/content_botton"
+                    android:text="@string/login_button_right_xiech" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="@dimen/dp_120">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="@dimen/dp_80"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@mipmap/login_xc_wx" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="@dimen/dp_80"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_marginEnd="@dimen/dp_30"
+                android:layout_toStartOf="@+id/imageView3"
+                app:srcCompat="@mipmap/login_xc_qq" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="@dimen/dp_80"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp_30"
+                android:layout_toEndOf="@+id/imageView3"
+                app:srcCompat="@mipmap/login_xc_message" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

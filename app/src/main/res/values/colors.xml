@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--给携程界面的颜色  以携程开头-->
+    <color name="text_blue_xiec">#33afe4</color>
+    <color name="write_xiec">#ffffff</color>
+    <color name="text_black_1_xiec">#dddddd</color>
+    <color name="text_black_3_xiec">#666666</color>
+    <color name="text_black_2_xiec">#727272</color>
+    <color name="text_orige_1_xiec">#ff9913</color>
+</resources>

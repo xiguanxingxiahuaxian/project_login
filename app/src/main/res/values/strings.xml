@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginUI_Xiech</string>
+
+    <string name="login_register_xiech">注册</string>
+    <string name="login_login_xiech">携程帐号登录</string>
+    <string name="login_hint_tel_xiech">国内手机号/用户名/邮箱/卡号</string>
+    <string name="login_hint_mm_xiech">登录密码</string>
+    <string name="login_hint_forgermm_xiech">找回密码</string>
+    <string name="login_button_login_xiech">登录</string>
+    <string name="login_button_left_xiech">手机动态密码登录</string>
+    <string name="login_button_right_xiech">域外手机登录</string>
+
+</resources>
